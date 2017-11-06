@@ -18,7 +18,7 @@ public class Ej1 {
 		double raiz_unica = (-c)/b;
 		
 		if ((a == 0) && (b == 0)) System.out.println("Ecuacion degenerada");
-		else if((a == 0) &&(b != 0)) System.out.println("Ecuacion con raiz unica: " + raiz_unica);
+		
 		else {
 			//System.out.println("Ecuacion con dos raices");
 			if (d >= 0) {
